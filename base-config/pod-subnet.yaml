@@ -1,0 +1,6 @@
+cluster:
+  network:
+    podSubnets:
+      - ###POD_CIDR###
+    serviceSubnets:
+      - ###SERVICE_CIDR###

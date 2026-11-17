@@ -1,0 +1,13 @@
+# Any generated certs directory
+certs/
+rootca/
+generated-config/
+*.crt
+*.key
+*.csr
+
+# Any downloaded .tar.gz file
+*.tar.gz
+
+# Any image templte disk file
+images/

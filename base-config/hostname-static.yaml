@@ -1,0 +1,6 @@
+### Delete the default auto-generated hostname when provisioning
+
+---
+apiVersion: v1alpha1
+kind: HostnameConfig
+$patch: delete

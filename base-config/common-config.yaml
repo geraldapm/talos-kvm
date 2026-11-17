@@ -1,0 +1,14 @@
+machine:
+  network:
+    hostname: ###HOSTNAME###
+    interfaces:
+      - interface: ###INTERFACE###
+        addresses:
+          - ###IP_ADDRESS###/###CIDR###
+        routes:
+          - network: 0.0.0.0/0
+            gateway: ###IP_GATEWAY###
+    nameservers:
+      - ###IP_GATEWAY###
+      - 8.8.8.8
+      - 8.8.4.4
